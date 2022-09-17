@@ -1,0 +1,72 @@
+{
+	"HOME_URL": "",
+	"TABS_BLACK_LIST": ["/403", "/404", "/500", "/", "/home", "/login"],
+	"menu": [
+		{
+			"path": "/home",
+			"name": "home",
+			"title": "首页",
+			"icon": "homeFilled",
+			"isLink": ""
+		},
+		{
+			"path": "/table",
+			"name": "table",
+			"title": "超级表格",
+			"isLink": "",
+			"icon": "refrigerator",
+			"children": [
+				{
+					"path": "/superTable",
+					"name": "superTable",
+					"title": "超级表格",
+					"icon": "",
+					"isLink": ""
+				}
+			]
+		},
+		{
+			"path": "/form",
+			"name": "form",
+			"title": "表单",
+			"isLink": "",
+			"icon": "document",
+			"children": [
+				{
+					"path": "/basicsForm",
+					"name": "basicsForm",
+					"title": "基础表单",
+					"icon": "",
+					"isLink": ""
+				},
+				{
+					"path": "/verifyForm",
+					"name": "verifyForm",
+					"title": "校验表单",
+					"icon": "",
+					"isLink": ""
+				}
+			]
+		},
+		{
+			"path": "/map",
+			"name": "map",
+			"title": "地图",
+			"isLink": "",
+			"icon": "location",
+			"children": [
+				{
+					"path": "/aMap",
+					"name": "aMap",
+					"title": "高德地图",
+					"icon": "",
+					"isLink": ""
+				}
+			]
+		}
+	],
+	"map": {
+		"key": "9b5c8420daa02d244f60f8d7cb921039",
+		"secretKey": "bcdf16d527ee8a5b7189f7c321e893a1 未使用"
+	}
+}

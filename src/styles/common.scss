@@ -1,0 +1,89 @@
+/* flex */
+.d-flex {
+	display: flex !important;
+}
+
+.flex-1 {
+	flex-grow: 1 !important;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center !important;
+}
+
+.justify-end {
+	justify-content: flex-end !important;
+}
+
+.justify-around {
+	justify-content: space-around !important;
+}
+
+.justify-evenly {
+	justify-content: space-evenly !important;
+}
+
+.justify-between {
+	justify-content: space-between !important;
+}
+
+.align-item-center {
+	align-items: center;
+}
+
+.align-item-end {
+	align-items: flex-end;
+}
+
+.align-item-start {
+	align-items: flex-start;
+}
+
+/* 文字单行省略号 */
+.sle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* 文字多行省略号 */
+.mle {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+/* 文字多了自動換行 */
+.break-word {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+	transition: all 0.2s;
+}
+.fade-transform-enter-from {
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: all 0.2s;
+}
+.fade-transform-leave-to {
+	opacity: 0;
+	transform: translateX(30px);
+	transition: all 0.2s;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}

@@ -1,0 +1,37 @@
+{
+  "id": "3575264",
+  "name": "Liex-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "liex-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2967035",
+      "name": "符号-英文",
+      "font_class": "fuhao-yingwen",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "2967036",
+      "name": "符号-中文",
+      "font_class": "fuhao-zhongwen",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "7008886",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "4767007",
+      "name": "arrawsalt",
+      "font_class": "arrawsalt",
+      "unicode": "e7e9",
+      "unicode_decimal": 59369
+    }
+  ]
+}

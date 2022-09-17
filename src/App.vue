@@ -1,0 +1,19 @@
+<template>
+	<el-config-provider :locale="i18nLocale">
+		<router-view></router-view>
+	</el-config-provider>
+</template>
+<script setup lang="ts">
+// 配置element中英文
+import { GlobalStore } from "@/store";
+import { computed } from "vue";
+import zhCn from "element-plus/lib/locale/lang/zh-cn";
+import en from "element-plus/lib/locale/lang/en";
+const globalStore = GlobalStore();
+
+// element 语言配置
+const i18nLocale = computed((): any => {
+	return globalStore.isZh ? zhCn : en;
+});
+</script>
+<style scoped></style>
