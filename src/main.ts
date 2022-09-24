@@ -11,6 +11,9 @@ import "@/assets/iconfont/iconfont.css";
 // i18n
 import I18n from "@/language/index";
 
+//tool directives
+import directives from "@/directive/Directive";
+
 /* css */
 // element css
 import "element-plus/dist/index.css";
@@ -29,4 +32,5 @@ const app = createApp(App);
 Object.keys(Icons).forEach(key => {
 	app.component(key, Icons[key as keyof typeof Icons]);
 });
-app.use(router).use(I18n).use(pinia).use(ElementPlus).mount("#app");
+
+app.use(router).use(I18n).use(pinia).use(ElementPlus).use(directives).mount("#app");

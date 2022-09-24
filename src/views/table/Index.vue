@@ -16,9 +16,12 @@
 			</el-form-item>
 		</el-form>
 		<el-table :data="tableData" style="width: 100%">
-			<el-table-column prop="date" label="Date" width="180" />
-			<el-table-column prop="name" label="Name" width="180" />
-			<el-table-column prop="address" label="Address" />
+			<el-table-column prop="name" label="用户名" width="180" />
+			<el-table-column prop="email" label="邮箱" width="180" />
+			<el-table-column prop="industry" label="行业" />
+			<el-table-column prop="company" label="公司" />
+			<el-table-column prop="department" label="部门" />
+			<el-table-column prop="" label="年龄" />
 		</el-table>
 	</div>
 </template>

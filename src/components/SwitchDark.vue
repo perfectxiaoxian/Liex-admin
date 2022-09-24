@@ -7,6 +7,7 @@
 		inactive-color="#dcdfe6"
 		:active-icon="Sunny"
 		:inactive-icon="Moon"
+		title="主题"
 	/>
 </template>
 

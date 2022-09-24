@@ -1,6 +1,7 @@
 <template>
 	<span
 		:class="[isZh ? 'liex-icon-fuhao-zhongwen' : 'liex-icon-fuhao-yingwen', 'cursor-pointer']"
+		:title="isZh ? '简体中文' : 'English'"
 		@click.stop="setLanguage_"
 	></span>
 </template>

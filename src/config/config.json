@@ -63,6 +63,22 @@
 					"isLink": ""
 				}
 			]
+		},
+		{
+			"path": "/toolkit",
+			"name": "toolkit",
+			"title": "工具",
+			"isLink": "",
+			"icon": "location",
+			"children": [
+				{
+					"path": "/directives",
+					"name": "directives",
+					"title": "自定义指令",
+					"icon": "",
+					"isLink": ""
+				}
+			]
 		}
 	],
 	"map": {
