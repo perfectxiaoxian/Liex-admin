@@ -1,7 +1,13 @@
 import { App } from "vue";
 import debounce from "./modules/Debounce";
+import throttle from "./modules/Throttle";
+import dragBasics from "./modules/DragBasics";
+import groupDrag from "./modules/GroupDrag";
 const directivesList: any = {
-	debounce
+	debounce,
+	throttle,
+	dragBasics,
+	groupDrag
 };
 
 const directives = {
